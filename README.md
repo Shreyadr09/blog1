@@ -15,7 +15,7 @@ This project aims to implement the following features:
 - Display a list of static blog posts uploaded by the admin.
 - Allow users to view the full content of each blog post.
 - Provide a "Like" button for each blog post that increments the like count when clicked.
-- Offer social media sharing options for each blog post.
+- Offer social media sharing options for each blog post. Users should be able to share the blog on platforms such as WhatsApp, Instagram, and Facebook. Additionally, there must be an option to copy the link to the blog for easy sharing.
 - Ensure responsive design for an optimal user experience on various devices.
 
 ## Technologies Used
@@ -23,7 +23,7 @@ This project aims to implement the following features:
 The project will be implemented using the following technologies:
 
 - Frontend: React.js
-- Backend: A backend framework (e.g., Node.js with Express) to manage blogs and user interactions.
+- Backend: A backend framework (e.g., Node.js/Django with Express) to manage blogs and user interactions.
 - Database: MongoDB to store blog data.
 
 ## Project Structure
@@ -34,3 +34,4 @@ The project should be organized into different components/modules, including:
 - **Blog Detail Page:** Showing the full content of a selected blog.
 - **Like Button:** Allowing users to like a blog post.
 - **Social Media Sharing:** Providing options to share a blog on various social media platforms.
+
